@@ -14,15 +14,23 @@ header {
     background: white;
     padding: 20px;
 }
-.green-glow{
+
+.no-glow {
+    border: none;
+}
+
+.green-glow {
     border: 4px solid green
 }
-.red-glow{
-    border: 4px  solid red;
+
+.red-glow {
+    border: 4px solid red;
 }
-.gray-glow{
+
+.gray-glow {
     border: 4px solid gray;
 }
+
 header>h1 {
     color: #1b2d6e;
     text-align: center;
@@ -43,7 +51,7 @@ header>h1 {
     position: relative;
 }
 
-.badge{
+.badge {
     background: #CC0909;
     color: white;
     font-size: 14px;
@@ -51,25 +59,25 @@ header>h1 {
     font-family: Asap, sans-serif;
 }
 
-#user-label{
+#user-label {
     position: absolute;
     top: 30px;
     left: -25px;
 }
 
-#comp-label{
+#comp-label {
     position: absolute;
     top: 30px;
     right: -30px;
 }
 
-.result{
+.result {
     font-size: 40px;
     color: white;
 
 }
 
-.result > p {
+.result>p {
     text-align: center;
     font-weight: bold;
     font-family: Asap, sans-serif;
@@ -79,17 +87,23 @@ header>h1 {
     margin-top: 50px;
     text-align: center;
 }
+
 .choice {
     display: inline-block;
     transition: all 0.3s ease;
 }
 
-.choice:hover{
+.icons {
+    height: 200px;
+    width: 200px;
+}
+
+.choice:hover {
     cursor: pointer;
     background: #CC0909;
 }
 
-#action-message{
+#action-message {
     text-align: center;
     color: white;
     font-family: Asap, sans-serif;
@@ -97,15 +111,3 @@ header>h1 {
     font-size: 30px;
     margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
